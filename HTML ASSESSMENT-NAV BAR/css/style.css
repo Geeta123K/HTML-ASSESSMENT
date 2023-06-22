@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box; margin: 0; padding: 0;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background: blue;
+    display: flex;
+}
+.navbar .logo{
+    height: 30px;
+    margin: 10px 10px;
+    background: white;
+    border-radius: 2px solid white;
+}
+
+.navbar .nav{
+    
+    padding-left: 500px;
+}
+.navbar .nav label a{
+
+text-decoration: none;
+color: white;
+line-height: 50px;
+padding: 17px;
+padding-left: 30px;
+text-transform: capitalize;
+
+}
+.navbar .nav .services i .fa-angle-down{
+    font-size: 20px;
+    color: white;
+}
+.navbar .nav .services{
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 3s;
+    
+}
+.navbar .nav a:hover{
+    background: rgb(2, 2, 104);
+}
+.navbar .nav .services .ddservices{
+    height: 145px;
+    width: 150%;
+    background: blue;
+    position: absolute;
+    top: 34px;
+    left:0px;
+    opacity: 0;
+    transition: 3s;
+}
+.navbar .nav .services .ddservices a{
+    display: block;
+    width: 100%;
+    
+    line-height: 5px;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+.navbar .nav .services:hover .ddservices{
+    opacity: 1;
+}
+
+.navbar .nav .services .ddservices .more{
+    position: relative;
+    top: 0;
+    left: 0;
+    background: blue;
+}
+.navbar .nav .services .ddservices .more a:hover{
+    background: rgb(4, 4, 95);
+}
+
+.navbar .nav .services .ddservices .more .ddmore{
+height: 150px;
+width: 100%;
+background: blue;
+border: 2px solid white;
+position: absolute;
+top: 0px;
+left: 100%;
+opacity: 0;
+transition: 3s;
+}
+.navbar .nav .services .ddservices .more .ddmore a{
+    display: block;
+    width: 100%;
+    text-transform: none;
+    line-height: 5px;
+    padding: 15px;
+    border-bottom: 1px solid white;
+    
+}
+
+.navbar .nav .services .ddservices .more:hover .ddmore{
+    opacity: 1;
+}
+
+/* .navbar .nav .services label:hover{
+    background: darkblue;
+} */
+.navbar .nav  .ddmore a span .java .java1{
+    text-transform: lowercase;
+}
+
+
+.navbar .login{
+    padding:0 50px;
+    line-height: 50px;
+    
+}
+.navbar .login button{
+    color: black;
+    background: white;
+    padding: 5px 15px 5px 15px;
+}
+
